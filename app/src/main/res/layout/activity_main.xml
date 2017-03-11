@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/rootRL"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/mybackground">
+
+
+        <Button
+            android:textColor="#191d1d"
+            android:textColorHighlight="#161515"
+            android:textStyle="bold|italic"
+            android:textSize="20dp"
+            android:id="@+id/infoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:layout_marginStart="26dp"
+            android:text="Info"
+            android:onClick="info"
+            android:layout_below="@+id/imageView"
+            android:layout_alignLeft="@+id/imageView"
+            android:layout_alignStart="@+id/imageView"
+            android:layout_marginTop="65dp" />
+
+        <Button
+            android:textColor="#191d1d"
+            android:textColorHighlight="#161515"
+            android:textStyle="bold|italic"
+            android:textSize="20dp"
+            android:id="@+id/playButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/infoButton"
+            android:layout_marginEnd="42dp"
+            android:layout_marginRight="42dp"
+            android:text="Play"
+            android:onClick="play"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="162dp"
+            app:srcCompat="@drawable/title"
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+
+        </RelativeLayout>
+
+

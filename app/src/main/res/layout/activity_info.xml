@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootRL"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mybackground2">
+
+
+    <Button
+        android:textColor="#191d1d"
+        android:textColorHighlight="#161515"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:id="@+id/homeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:onClick="main"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:textColor="#d2f7f5"
+        android:textColorHighlight="#161515"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is a like a Rock, Paper, Scissors game.
+
+    The goal of the game is to beat the computer by selecting the animal which defeats the animal the computer chooses.
+
+    Rat beats Elephant, Elephant beats Cat, Cat beats Rat."
+
+        android:layout_marginBottom="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:textColor="#d2f7f5"
+        android:textColorHighlight="#161515"
+        android:textStyle="bold|italic"
+        android:textSize="30dp"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instructions"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp" />
+
+
+</RelativeLayout>
+
+
+
