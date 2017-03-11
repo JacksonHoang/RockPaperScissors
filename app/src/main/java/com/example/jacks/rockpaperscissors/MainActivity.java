@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent1 = new Intent(this, InfoActivity.class);
         startActivity(intent1);
     }
-    protected void play(View view){
+    public void play(View view){
         Intent intent2 = new Intent(this, PlayActivity.class);
         startActivity(intent2);
     }
