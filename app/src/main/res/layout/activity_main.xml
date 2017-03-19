@@ -10,10 +10,12 @@
 
 
         <Button
-            android:textColor="#191d1d"
+            android:textColor="#f2f2f2"
             android:textColorHighlight="#161515"
             android:textStyle="bold|italic"
             android:textSize="20dp"
+            android:background="@drawable/mybuttons"
+
             android:id="@+id/infoButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -27,10 +29,13 @@
             android:layout_marginTop="65dp" />
 
         <Button
-            android:textColor="#191d1d"
+            android:textColor="#dddfdf"
             android:textColorHighlight="#161515"
             android:textStyle="bold|italic"
             android:textSize="20dp"
+
+            android:background="@drawable/mybuttons"
+
             android:id="@+id/playButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -50,6 +55,7 @@
             android:id="@+id/imageView"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true" />
+
 
 
         </RelativeLayout>
